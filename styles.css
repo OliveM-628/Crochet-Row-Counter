@@ -1,23 +1,29 @@
+/* use https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_center_website */
+
 body {
     color: black;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
-    height: 200px; /* Set the height */
-    width: 400px; /* Set the width */
-    background: rgb(124, 253, 141); /* Set the background color */
-    position: fixed; /* Fix the element to the viewport */
-    /*top: 50%; Center the element vertically */
-    left: 50%; /* Center the element horizontally */
-    /*margin-top: -100px; /* Adjust the top margin */
-    margin-left: -200px; /* Adjust the left margin */
+    background: #6bb475;
+}
+
+h1 {
+    padding: 20px;
+}
+
+.content {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 10px;
 }
 
 .rowCounterBg {
-            background-image: linear-gradient(rgba(2, 2, 2, 0.523), rgba(0, 2, 0, 0.763)), url('Assets\\pexels-introspectivedsgn-8826936.jpg');
-            background-size: 300px 240px;
+            background-image: linear-gradient(rgba(2, 2, 2, 0.523), rgba(0, 2, 0, 0.763)), url('https://images.pexels.com/photos/8931780/pexels-photo-8931780.jpeg');
+            background-size: 500px;
             color: white;
-            padding: 40px;
+            padding: 80px;
             text-align: center;
         
         }
