@@ -4,25 +4,31 @@
 <head>
     <title>Crochet Row Counter</title>
     <style>
-        #rowCounter {
-            background-color: lightblue;
-            color: black;
+        .rowCounterBg {
+            background-image: linear-gradient(rgba(2, 2, 2, 0.3), rgba(1, 76, 1, 0.3)), url('Assets\\pexels-introspectivedsgn-8826936.jpg');
+            background-size: 300px 240px;
+            color: white;
             padding: 40px;
             text-align: left;
         }
+
+
     </style>
 </head>
 
 <body>
     <h1>Row Counter</h1>
-    <p id = "rowCounter">Counter goes here</p>
-    <button onclick="removeRow()">-</button>
-    <button onclick="addRow()">+</button>
 
+    <div class = "rowCounterBg">
+        <p id="rowCounter">
+            Row: 0
+        </p>
+        <button onclick="removeRow()">-</button>
+        <button onclick="addRow()">+</button>
 
-    <br>
-    <br>
-    <img src = Assets\pexels-introspectivedsgn-8826936.jpg width = "400" height = "300"> 
+    </div>
+
+    <!--<img src = Assets\pexels-introspectivedsgn-8826936.jpg width = "400" height = "300"> -->
 
     <script src="script.js"></script>
 </body>
