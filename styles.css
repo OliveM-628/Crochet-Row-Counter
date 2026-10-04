@@ -31,6 +31,10 @@ body {
             text-align: center;
         }
 
+#rowCounter {
+    font-size: large;
+}
+
  #changeImageButton {
     margin: 10px 0;
 } 
