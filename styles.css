@@ -20,6 +20,7 @@ h1 {
 }
 
 .rowCounterBg {
+            background-color:  #2b8537;
             background-image: linear-gradient(rgba(2, 2, 2, 0.523), rgba(0, 2, 0, 0.763)), url('https://images.pexels.com/photos/8931780/pexels-photo-8931780.jpeg');
             background-size: 500px;
             color: white;
