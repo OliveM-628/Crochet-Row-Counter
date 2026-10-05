@@ -7,9 +7,11 @@
 </head>
 
 <body>
+    <!-- content class holds all the stuff in middle of the screen -->
     <div class = "content">
         <h1>Row Counter</h1>
 
+        <!-- rowCounterBg class holds the counter itself, with the buttons, text and bg images -->
         <div class = "rowCounterBg">
             <p id="rowCounter">
                 Row: 0
@@ -19,7 +21,11 @@
 
         </div>
 
+        <!-- button to change the image shown -->
         <button onclick="changeImage()" id = "changeImageButton">Change background image</button>
+        <br>
+        <input type="checkbox" id="showBackground" name="showBackground" value="yes" onclick="turnOffBgYarn()">
+        <label for="vehicle1">Show background pattern?</label><br>
     </div>
 
     <script src="script.js"></script>
