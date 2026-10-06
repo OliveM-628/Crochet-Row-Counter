@@ -2,7 +2,7 @@ var rowCount = 0;
 
 let photoIterator = 0;
 let photoList = ['https://images.pexels.com/photos/8931780/pexels-photo-8931780.jpeg',
-    'Assets/pexels-introspectivedsgn-8826936.jpg',
+    'https://images.pexels.com/photos/8826936/pexels-photo-8826936.jpeg',
     'https://images.pexels.com/photos/5660373/pexels-photo-5660373.jpeg',
     'https://images.pexels.com/photos/5659921/pexels-photo-5659921.jpeg',
     'https://images.pexels.com/photos/4601228/pexels-photo-4601228.png',
