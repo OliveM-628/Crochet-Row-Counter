@@ -28,9 +28,6 @@ function removeRow() {
 function changeImage() {
     console.log("working");
     photoIterator += 1;
-    // if (photoIterator >= photoList.length) {
-    //     photoIterator = 0;
-    // }
     const collection = document.getElementsByClassName("rowCounterBg");
     collection[0].style.backgroundImage = "linear-gradient(rgba(2, 2, 2, 0.523), rgba(0, 2, 0, 0.763)), url(" + photoList[Math.floor(Math.random() * photoList.length)] + ")";
     console.log(photoIterator);
