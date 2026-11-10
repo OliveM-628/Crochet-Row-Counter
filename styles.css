@@ -6,10 +6,24 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
     background-color: #6bb475;
-    background-image: url('Assets\\ideativas-tlm-yarn-8748847_1920.png');
-    background-size: 100px;
+    /* background-size: 100px;
     background-repeat: space;
-    background-blend-mode: overlay;
+    background-blend-mode: overlay; */
+}
+
+@media (min-width: 600px) {
+    body {
+        /* color: black;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        background-color: #6bb475; */
+        background-image: url('Assets\\ideativas-tlm-yarn-8748847_1920.png');
+        background-size: 100px;
+        background-repeat: space;
+        background-blend-mode: overlay;
+
+    }
 }
 
 h1 {
@@ -52,14 +66,20 @@ ul {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+
  #changeImageButton {
     margin: 10px 0;
 }
 
-@media (max-width: 800px) {
-button, a {
-    padding: 12px 20px;
-    font-size: 16px;
-    touch-action: manipulation;
-}
+@media (max-width: 600px) {
+    button, a {
+        padding: 12px 20px;
+        font-size: 16px;
+        touch-action: manipulation;
+    }
+
+    #showBackground {
+        display: none;
+    }
+
 }
